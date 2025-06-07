@@ -1,4 +1,6 @@
-package string;//Write java program to reverse the words in given sentence
+//Write java program to reverse the words in given sentence
+
+package string;
 
 public class ReverseSentence {
     public static void main(String[] args) {
