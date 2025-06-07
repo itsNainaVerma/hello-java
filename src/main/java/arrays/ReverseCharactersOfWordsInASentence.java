@@ -1,4 +1,4 @@
-//Write java program to reverse the characters in the words in given a sentence
+package arrays;//Write java program to reverse the characters in the words in given a sentence
 
 public class ReverseCharactersOfWordsInASentence {
     public static void main(String[] args) {
