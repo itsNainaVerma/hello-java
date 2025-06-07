@@ -1,4 +1,4 @@
-/*
+package collection_framework.map;/*
 I/P- AABBBCCCCaaaaa
 O/P- A2B3C4a5
 */

@@ -1,3 +1,5 @@
+package string;
+
 // Print duplicate characters using String functions
 public class DuplicateCharacters {
         public static void main(String[] args) {
