@@ -13,11 +13,10 @@ public class ReverseSentence {
             String Temp="";
             for(int i = res.length-1 ; i >=0; i--)
             {
-                Temp = Temp + res[i];
-
                 if(i!=0){
                     Temp = Temp + " ";
                 }
+                Temp = Temp + res[i];
             }
             Temp = Temp + ". ";
             System.out.print(Temp);
