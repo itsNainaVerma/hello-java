@@ -7,8 +7,11 @@ import java.util.*;
 public class duplicateNumbersInString {
     public static void main(String[] args) {
 
-        String n = "selenium1234";
+        String n = "selenium1232453";
         List<Character> strNum = new ArrayList<>();
+        int firstIndex;
+        int lastIndex;
+        int count=0;
 
         for(int i=0; i<n.length(); i++)
         {
@@ -17,8 +20,14 @@ public class duplicateNumbersInString {
                 strNum.add(n.charAt(i));
             }
         }
-        System.out.print(strNum);
+        System.out.println(strNum+"\n");
+        for(char c: strNum){
+            firstIndex = strNum.indexOf(c);
+            lastIndex = strNum.lastIndexOf(c);
+            if(firstIndex!=lastIndex){
+                count++;
+            }
+        }
+        System.out.println("There are " + count/2 + " duplicate numbers available");
     }
-
-    // needs to be completed ...
 }
