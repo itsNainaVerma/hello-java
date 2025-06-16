@@ -6,7 +6,6 @@ public class ButterflyStarPattern {
         int count = 10;
 
         for(int i = 1; i <= 6; i++) {
-
             for(int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
@@ -23,11 +22,9 @@ public class ButterflyStarPattern {
             count = count - 2;
         }
 
-
         count = 0;
 
         for(int i = 6; i >= 1; i--) {
-
             for(int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
